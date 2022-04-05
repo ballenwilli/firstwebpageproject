@@ -3,12 +3,13 @@
   background-color: #1f2937;
   color: #f9faf8;
   font-size: 32px;
-  text-align: center;
+  font-family: roboto;
+  text-align: left;
   font-weight: bold;
   justify-content: space-between;
   padding-left: 200px;
   padding-right: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 .left {
   display: flex;
@@ -18,8 +19,35 @@
 .right {
   display: flex;
   font-size: 16px;
+  color: #e5e7eb;
   gap: 32px;
   justify-content: flex-end;
   align-items: center;
   font-weight: normal;
+}
+.nextleft {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-right: 50px;
+  align-items: flex-start;
+}
+.bigtext {
+  display: flex;
+  font-size: 32px;
+  flex-flow: wrap;
+}
+.subtext {
+  display: flex;
+  color: #e5e7eb;
+  font-weight: lighter;
+  font-size: 16px;
+  flex-flow: wrap;
+}
+button {
+  background-color: #3882F6;
+  border-radius: 12px;
+  width: 150px;
+  text-align: center;
+  color: white;
 }
