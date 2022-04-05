@@ -50,4 +50,126 @@ button {
   width: 150px;
   text-align: center;
   color: white;
+
+}
+.bodyheader {
+  display: flex;
+  padding: 50px;
+  font-size: 24px;
+  font-weight: 900;
+  justify-content: center;
+}
+.bodystuff {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.bodyparts {
+  display: flex;
+  flex-flow: wrap column;
+
+
+}
+.bodysubtext {
+  display: flex;
+  font-size: 18px;
+  color: black;
+  flex-flow: wrap;
+  width: 200px;
+  padding-bottom: 200px;
+
+}
+.bodybox {
+  display: flex;
+  gap: 8px;
+  border-radius: 12px;
+  border-color: #3882f6;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+}
+
+.bodygray {
+  display: flex;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #E5E7EB;
+  color: #1f2937;
+  justify-content: center;
+  flex-direction: column;
+}
+.grayone {
+  display: flex;
+  padding: 50px;
+  font-style: italic;
+  font-size: 36px;
+}
+.graytwo {
+  display: flex;
+  color: black;
+  justify-content: flex-end;
+  font-weight: 700px;
+  font-size: 18px;
+}
+.bodywhite {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  background-color: white;
+  flex-flow: wrap row;
+  justify-content: center;
+}
+
+.whiteone {
+  display: flex;
+  padding: 50px;
+  flex-flow: nowrap column;
+  background-color: #3882f6;
+  color: white;
+}
+
+.whitetwo {
+  display: flex;
+  padding: 50px;
+  background-color: #3882F6;
+  align-items: center;
+  justify-content: center;
+  }
+.buttonformat {
+  display: flex;
+  width: 300px;
+  background-color: #3882F6;
+  align-items: center;
+  justify-content: center;
+}
+.two {
+  border-radius: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-color: white;
+  color: white;
+  font-weight: 700px;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  align-items: center;
+}
+.subwhiteone {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 18px;
+}
+.subwhitetwo {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 300px;
 }
